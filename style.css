@@ -1,0 +1,564 @@
+*{
+	margin: 0;
+	padding: 0;
+font-family: 'Montserrat', sans-serif;
+
+}
+/*............common section......*/
+a{
+	text-decoration: none;
+	outline: none;
+	
+	border-radius: 6px;
+}
+li{
+	list-style: none;
+}
+/*.....................commone section...........*/
+section{
+	background: #fff;
+}
+.container
+{
+	margin: auto;
+	max-width: 950px;
+	height:80vh;
+	background:#000;
+	display:flex;
+	justify-content:space-evenly;
+	align-items: center;
+	margin-top: 30px;
+	border-radius: 30px;
+
+
+}
+
+.header-details{
+
+	flex-basis: 50%;
+	color: #fff;
+	text-transform: capitalize;
+}
+h1{
+	font-family: sans-serif;
+	font-size: 45px;
+}
+p{
+	font-family: sans-serif;
+	font-size: 25px;
+	margin: 20px 0 25px 0;
+}
+.btn{
+
+	text-transform: capitalize;
+    background-color: crimson;
+    color: #fff;
+    padding: 10px 30px;
+    transition: all .8s ease;
+
+}
+
+.btn:hover{
+	background-color: #000;
+    color:crimson;
+    border: 1px solid crimson;
+  
+
+}
+
+
+
+/*........................................aside............................*/
+.aside{
+	background-color:#000 ;
+	height: 230px;
+	border-radius: 10px;
+	align-self: flex-start;
+	flex-basis: 210px;
+	flex-grow: 0;
+	flex-shrink: 0;
+	
+
+}
+
+.aside1{
+	height: 100%;
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+
+}
+.aside1 li{
+
+	width:85%;
+}
+.aside1 li a{
+
+	text-align: center;
+	display: block;
+	outline: none;
+	width: auto;
+	
+}
+.btn3{
+	background-color: #fff;
+	color: #000;
+	font-size: 13px;
+
+	padding: 15px 18px;
+
+}
+.active{
+	background-color: crimson;
+    color:#fff ;
+}
+/*....................end aside part...................*/
+/*....................matches section.......................*/
+.extra{
+	background-color: #fff;
+	height: auto;
+	
+	display: flex;
+	justify-content: space-between;
+	margin-top: 90px;
+
+}
+.matches{
+	
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-row-gap: 15px;
+	grid-column-gap: 25px;
+}
+.match{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-evenly;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: 0 0 1px 0 #000;
+	width: 212px;
+	height:auto;
+}
+.match .thumble img{
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	margin-bottom: 10px;
+	border-radius: 7px 7px 0 0;
+
+}
+
+/*....................extra part for  design 2nd html page ............*/
+.extra-part{
+	width: 250px;
+	height:auto;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	margin-left: 15px;
+}
+.extra-thumble{
+display:flex;
+width: 100%;
+height: auto;}
+
+
+
+.extra-thumble .flag-img{
+	width: 200px;
+	height: auto;
+	border-radius: 0px;
+
+}	
+.flag-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+	
+}
+.extra-info{
+	align-self:center;
+	text-align: center;
+	color: gray;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.middle{
+	margin: 0 8px;
+	align-self:center;
+}
+h4{
+	margin: 10px 0;
+	text-align: center;
+}
+.match-info{
+
+}
+/*..................extra part for 2nd html page ................*/
+.match-info{
+	padding: 10px 0;
+	width:95%;
+}
+.match-info h3{
+	margin-top: 18px;
+	font-size: 14px;
+	word-wrap: break-word;
+}
+.btn2{
+
+	
+    margin: 15px ;
+	padding: 7px 17px;
+	color: #000;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+	.match-icon{
+		width: 100%;
+	}
+
+
+/*............................details part.......................*/
+.details{
+	
+
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	
+}
+.details img{
+
+}
+
+.details span{
+	position: relative;
+	top: -10px;
+	left: -10px;
+	transform: translateY(10px);
+}
+
+
+
+/*..................bonus part.........*/
+.bonus-mark{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.optional{
+	
+	width: 100px;
+	text-align: center;
+	display: none;
+}
+/*..................footer..........................*/
+footer{
+	margin-top: 90px;
+	width: 100%;
+	height: 300px;
+	background-color: #000;
+	text-transform: capitalize;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+ footer h2{
+	color:#fff;
+	
+}
+hr{
+	width: 80%;
+	background-color: gray;
+	opacity: .2;
+	margin: 25px 0;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer li a{
+	color: gray;
+	font-size: 12px;
+	margin-left:  27px;
+	
+}
+/*............social icon part..................*/
+
+.social-icon{
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	
+
+}
+.social-icon i{
+	font-size: 25px;
+	margin-left: 20px;
+
+	color: #fff;
+}
+/*.........................for tablet view...............*/
+
+@media screen and (max-width: 992px){
+
+	.container{
+		max-width: 90%;
+		display: flex;
+
+	}
+	h1,p,.btn{
+		margin-left: 30px;
+	}
+	h1{
+		font-size: 30px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.extra{
+
+		flex-direction: column;
+		justify-content: space-around;
+
+	}
+	.aside{
+		background-color: #fff;
+		width: 100%;
+	}
+	.aside1{
+	display: flex;
+	flex-direction:row;
+
+	justify-content: space-around;
+	align-items: center;
+	
+
+}
+
+.aside1 li{
+	width: 300px;
+}
+
+
+.btn3{
+	margin: 25px 20px;
+
+	box-shadow: 0px 0px 2px 0 #000;
+	padding: 17px 40px;}
+
+	.active{
+		padding: 17px 40px;
+	}
+
+
+
+.matches{
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	width: 93%;
+	
+}
+	
+
+.match{
+
+    width:300px;	
+	height:auto;
+}
+
+.match .thumble img{
+	width: 100%;
+	height:250px;
+	object-fit: cover;
+	margin-bottom: 10px;
+	
+
+}
+.optional{
+	display:block;
+	margin-top: 40px;
+}
+
+
+}
+
+
+
+/*..............................mobile view...............*/
+
+@media screen and (max-width: 688px){
+
+
+
+.container{
+	max-width:90%;
+	display: flex;
+	
+
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: auto;
+
+
+}
+h1,p{
+	text-align: left;
+	margin-left:50px;
+}
+h1{
+	font-size: 30px;
+	line-height:50px;
+}
+
+p{
+
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	
+}
+
+.header-details{
+	margin-top: 70px;
+	text-align: center;
+	height: 50%;
+	
+}
+.btn{
+	padding: 15px 60px;
+	margin-top: 70px;
+
+
+}
+.bannar-image{
+	margin-top: 40px;
+}
+
+/*...........aside section...........*/
+.extra{
+
+flex-direction: column;
+}
+.aside{
+	width: 100%;
+	background-color: #fff;
+	margin: 50px 0;
+}
+.aside1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: 25px 0;
+
+}
+.asside1 li{
+	width: auto;
+}
+.aside1 li a{
+	font-size: 30px;
+
+	
+
+
+}
+.btn3{
+	font-size: 20px;
+
+	box-shadow: 0px 0px 2px 0 #000;
+	padding: 9px 30px;
+	
+	
+}
+.btn3:nth-child(1){
+	padding: 10px 30px;
+
+}
+/*.................matches section..........*/
+.matches{
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	
+}
+.match{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: 0 0 1 0 #000;
+
+
+    width:350px;	
+	height:auto;
+}
+.match .thumble img{
+	width: 100%;
+	height:250px;
+	object-fit: cover;
+	margin-bottom: 10px;
+	
+
+}
+.match-info{
+     margin: 10px 0 ;
+     padding-left:20px ;
+	width:60%;
+	align-self: center;
+}
+h3{
+font-size: 60px;
+margin: 30px 0;
+}
+.optional{
+	display: none;
+}
+/*.........................beginning footer styleing......*/
+footer{
+	padding: 30px 0;
+	width: 100%;
+	height: auto;
+}
+.footer{
+	
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	align-items: center;
+	
+}
+
+
+.footer li a{
+
+	color: gray;
+	font-size: 15px;
+
+
+	
+}
+
+
+
+
+
+}
